@@ -1,0 +1,30 @@
+{
+  "name": "TelegramCloneBot Moded by Thant Zin Myo",
+  "description": "Telegram CloneBot Moded",
+  "logo": "https://images.bisnis-cdn.com/thumb/posts/2021/03/23/1371168/rose-blackpink-100-hot.jpg?w=744&h=465",
+  "keywords": [
+    "telegram",
+    "clone",
+    "google drive",
+    "clone bot"
+  ],
+  "repository": "https://github.com/thantzinmyothant1/telegramclonebotDT",
+  "website":   "https://github.com/thantzinmyothant1/telegramclonebotDT",
+  "success_url": "https://t.me/DoubleT2245",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram @BotFather တွင်ရယူပါ",
+      "value": "",
+      "required": true
+    },
+    "GDRIVE_FOLDER_ID": {
+      "description": "သင်၏ Shared Drive Id ထည့်ပါ",
+      "value": "",
+      "required": false
+    }
+    
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
