@@ -10,7 +10,7 @@ from bot.msg_utils import deleteMessage, sendMessage
 import time
 import dload
 
-REPO_LINK = "https://github.com/thantzinmyothant1/telegramclonebotDT"
+REPO_LINK = "https://github.com/thantzinmyothant1/New-Mod-Telegram-Clone"
 # Soon to be used for direct updates from within the bot.
 
 @run_async
