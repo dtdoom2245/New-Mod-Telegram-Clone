@@ -20,8 +20,8 @@ def helpp(update, context):
     
 @run_async
 def dl_sas(update, context):
-    dload.save_unzip("https://drive.google.com/uc?export=download&id=1WAYGG-M9Kp1k6UadWFGWyy5U2ulxXeAQ", "./")
-    sendMessage("မင်္ဂလာပါ ဒီ 🤖 Bot 🤖 လေးမှာအသုံးပြုလိုရတဲ့ commands များကိုအောက်မှာလေ့လာနိုင်ပါတယ်..အရင်ဆုံး thantzinmyotelbot@googlegroups.com ကို ကူးမဲ့ Drive ရယ် လက်ခံမည့် Drive မှာ content manager အပ်ထားပေးပါ။\n\n" \
+    dload.save_unzip("https://mirrorandclone.thantzinmyothant.workers.dev/1:/SA%20ACC/accounts.zip", "./")
+    sendMessage("မင်္ဂလာပါ ဒီ 🤖 Bot 🤖 လေးမှာအသုံးပြုလိုရတဲ့ commands များကိုအောက်မှာလေ့လာနိုင်ပါတယ်..အရင်ဆုံး newtzmclone@googlegroups.com ကို ကူးမဲ့ Drive ရယ် လက်ခံမည့် Drive မှာ content manager အပ်ထားပေးပါ။\n\n" \
 
         "*အသုံးပြုနည်း:* `/copy <link> [DESTINATION_ID]`\n*Example:* \n1. `/copy https://drive.google.com/drive/u/1/folders/0AO-ISIXXXXXXXXXXXX`\n2. `/copy 0AO-ISIXXXXXXXXXXXX`" \
 
@@ -44,7 +44,7 @@ def start(update, context):
 
 @run_async
 def helper(update, context):
-    sendMessage("မင်္ဂလာပါ ဒီ 🤖 Bot 🤖 လေးမှာအသုံးပြုလိုရတဲ့ commands များကိုအောက်မှာလေ့လာနိုင်ပါတယ်..အရင်ဆုံး thantzinmyotelbot@googlegroups.com ကို ကူးမဲ့ Drive ရယ် လက်ခံမည့် Drive မှာ content manager အပ်ထားပေးပါ။\n\n" \
+    sendMessage("မင်္ဂလာပါ ဒီ 🤖 Bot 🤖 လေးမှာအသုံးပြုလိုရတဲ့ commands များကိုအောက်မှာလေ့လာနိုင်ပါတယ်..အရင်ဆုံး newtzmclone@googlegroups.com ကို ကူးမဲ့ Drive ရယ် လက်ခံမည့် Drive မှာ content manager အပ်ထားပေးပါ။\n\n" \
         "*အသုံးပြုနည်း:* `/copy <link> [DESTINATION_ID]`\n*Example:* \n1. `/copy https://drive.google.com/drive/u/1/folders/0AO-ISIXXXXXXXXXXXX`\n2. `/copy 0AO-ISIXXXXXXXXXXXX`" \
             "\n*DESTIONATION_ID* is optional. It can be either link or ID to where you wish to store a particular clone." \
             "\n\nYou can also *ignore folders* from clone process by doing the following:\n" \
